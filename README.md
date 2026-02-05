@@ -1,10 +1,6 @@
 # site-pokemon-frontend
 Projeto acadêmico na disciplina de front-end desenvolvido com HTML, CSS e JavaScript.
 
-# Site Pokémon
-
-Projeto acadêmico desenvolvido na disciplina de Front-End.
-
 ## Tecnologias utilizadas
 - HTML
 - CSS
