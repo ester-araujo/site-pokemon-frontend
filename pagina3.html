@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pokémon Lendários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">Mundo Pokémon</div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Início</a></li>
+                <li><a href="pagina2.html">Pokémon Comuns</a></li>
+                <li><a href="pagina3.html" class="active">Pokémon Lendários</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <h1>Pokémon Lendários</h1>
+
+        <div class="texto-lendarios">
+            <h2>Raros, Poderosos e Enigmáticos</h2>
+            <p>Os Pokémon Lendários são figuras mitológicas que moldaram o mundo. Diferente dos comuns, eles não possuem
+                evoluções conhecidas e aparecem apenas para treinadores de coração puro ou em momentos de grande
+                desequilíbrio na natureza.</p>
+            <p>Passe o mouse para sentir a aura de poder e clique para identificar!</p>
+        </div>
+
+        <div class="cards-flex">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png"
+                class="img-lendario" onclick="identificar('Articuno')" width="200">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png"
+                class="img-lendario" onclick="identificar('Zapdos')" width="200">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png"
+                class="img-lendario" onclick="identificar('Moltres')" width="200">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/249.png"
+                class="img-lendario" onclick="identificar('Lugia')" width="200">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/250.png"
+                class="img-lendario" onclick="identificar('Ho-Oh')" width="200">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+                class="img-lendario" onclick="identificar('Mewtwo')" width="200">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/384.png"
+                class="img-lendario" onclick="identificar('Rayquaza')" width="200">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/251.png"
+                class="img-lendario" onclick="identificar('Celebi')" width="200">
+        </div>
+
+        <div class="rodape">
+            <h2 class="icon">Jogue os jogos Pokémon</h2>
+            <p>
+                <a href="https://unite.pokemon.com/pt-br/">Pokémon UNITE</a> |
+                <a href="https://pokemongo.com/pt-BR">Pokémon Go</a>
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>©Mundo Pokémon - Site não oficial</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+/* Fundo Azul*/
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #4facfe, #00f2fe);
+    background-attachment: fixed;
+    color: #003a70;
+    min-height: 100vh;
+}
+
+.rodape a {
+    color: #FF0000; 
+    text-decoration: underline; 
+    font-weight: bold; 
+}
+
+
+.img-logo-limpa {
+    width: 750px;
+    max-width: 90%;
+    height: auto;
+    margin-top: 0px;
+}
+
+
+.img-home-grande {
+    width: 850px;
+    max-width: 95%;
+    height: auto;
+    margin: 20px 0;
+}
+
+
+.balao-professor {
+    background: white;
+    border: 4px solid #ffd700;
+    border-radius: 30px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    color: #333;
+}
+
+.btn-sorteio {
+    background-color: #ff0000;
+    color: white;
+    border: 2px solid #fff;
+    padding: 12px 25px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo { color: #ffd700; font-size: 1.8em; font-weight: bold; }
+
+.navbar ul { list-style: none; display: flex; margin: 0; }
+.navbar ul li { margin-left: 20px; }
+.navbar ul li a { color: white; text-decoration: none; padding: 8px 15px; border-radius: 5px; }
+.navbar ul li a:hover, .active { background-color: #e04141; }
+
+
+.principal { 
+    text-align: center; 
+    padding: 0px 0px; 
+}
+
+.container-topo {
+    margin-top: -30px; 
+}
+
+.img-logo-limpa {
+    width: 750px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+h1 {
+    margin-top: 0px; 
+}
+
+.btn-js {
+    background-color: #ffd700;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.4); 
+    border: 5px solid #ffd700;
+    border-radius: 20px;
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    color: #003a70; 
+    backdrop-filter: blur(5px); 
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.img-poke {
+    cursor: pointer;
+    transition: transform 0.3s;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+}
+.img-poke:hover { transform: translateY(-10px); background: rgba(255, 255, 255, 0.2); }
+
+
+.img-lendario:hover { 
+    filter: drop-shadow(0 0 25px #fff9c4) brightness(1.1); 
+    transform: scale(1.1);
+}
+
+.cards-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.texto-lendarios {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+.img-lendario:hover { filter: drop-shadow(0 0 20px gold) brightness(1.2); }
+
+.info-box {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.icon {
+    list-style-type: none;
+    background-image: url(https://cdn-icons-png.flaticon.com/128/16025/16025478.png);
+    background-size: 20px 20px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    display: inline-block;
+}
+
+footer { padding: 20px; background: rgba(0,0,0,0.3); margin-top: 50px; }
+a { color: #87CEEB; }
+

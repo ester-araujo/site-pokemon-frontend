@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokémon Comuns - Evoluções</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Mundo Pokémon</div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Início</a></li>
+                <li><a href="pagina2.html" class="active">Pokémon Comuns</a></li>
+                <li><a href="pagina3.html">Pokémon Lendários</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <h1>Pokémon Comuns</h1>
+        <p>Clique no card para ver o Pokémon evoluir!</p>
+
+        <div class="container-cards">
+            <div class="card" onclick="proximaEvolucao('bulbasaur')">
+                <img id="img-bulbasaur" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="Bulbasaur">
+                <h2 id="nome-bulbasaur">Bulbasaur</h2>
+                <p id="desc-bulbasaur">Tipo Grama: Um Pokémon leal com uma semente nas costas.</p>
+            </div>
+
+            <div class="card" onclick="proximaEvolucao('piplup')">
+                <img id="img-piplup" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/393.png" alt="Piplup">
+                <h2 id="nome-piplup">Piplup</h2>
+                <p id="desc-piplup">Tipo Água: Um pinguim orgulhoso que detesta receber comida de estranhos.</p>
+            </div>
+
+            <div class="card" onclick="proximaEvolucao('igglybuff')">
+                <img id="img-igglybuff" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/174.png" alt="Igglybuff">
+                <h2 id="nome-igglybuff">Igglybuff</h2>
+                <p id="desc-igglybuff">Tipo Fada: Tem um corpo macio. Se começar a rolar, é difícil pará-lo.</p>
+            </div>
+        </div>
+
+        <div class="rodape">
+           <h2 class="icon">Conheça mais Pokémon</h2>
+            <p><a href="https://www.pokemon.com/br">Site Oficial Pokémon</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>©Mundo Pokémon - Site não oficial</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
